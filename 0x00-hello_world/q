@@ -1,1 +1,3 @@
-and that piece of art is useful" - Dora Korpar, 2015-10-19
+gcc: error: unrecognized command line option ‘-W./quote’; did you mean ‘-iquote’?
+gcc: fatal error: no input files
+compilation terminated.
