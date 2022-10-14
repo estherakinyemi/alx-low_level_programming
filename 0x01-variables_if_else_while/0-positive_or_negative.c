@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* header libraries necessary for code to be executeable*/
+/** Function main are;n
+ ** header libraries necessary for code to be executeable*/
 
 int main(void)
 {
@@ -16,8 +17,13 @@ int main(void)
 	}
 	if (n < 0)
 	{
-		printf("%d",n );
+		printf("%d", n);
 		printf(" is negative\n");
+	}
+	if (n == 0)
+	{
+		printf("%d", n);
+		printf(" is 0\n");
 	}
 	return (0);
 }
