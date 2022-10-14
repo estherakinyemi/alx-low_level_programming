@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** Function main are;n
- ** header libraries necessary for code to be executeable*/
+/** 
+ ** Function main are;
+ ** header libraries necessary for code to be executeable
+ **/
 
 int main(void)
 {
@@ -23,7 +25,7 @@ int main(void)
 	if (n == 0)
 	{
 		printf("%d", n);
-		printf(" is 0\n");
+		printf(" is zero\n");
 	}
 	return (0);
 }
