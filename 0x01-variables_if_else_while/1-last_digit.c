@@ -4,7 +4,7 @@
 /**
  ** main - Entry point
  **
- **Return : Always 0 (Success)
+ **Return value : Always 0 (Success)
  **/
 
 int main(void)
@@ -14,7 +14,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
-	
 	if (digit > 5)
 	{
 		printf("Last digit of ");
@@ -31,10 +30,10 @@ int main(void)
 		printf("%d", digit);
 		printf(" and is 0\n");
 	}
-	if (digit < 6 )
+	if (digit < 6 && digit != 0)
 	{
 		printf("Last digit of ");
-		printf("%d",n);
+		printf("%d", n);
 		printf(" is ");
 		printf("%d", digit);
 		printf(" and is less than 6 and not 0\n");
