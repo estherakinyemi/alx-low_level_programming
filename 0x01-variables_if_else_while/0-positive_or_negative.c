@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
- ** Function main are;
- ** header libraries necessary for code to be executeable
+/**
+ ** main - Entry point
+ **
+ ** Return: Always 0 (Success)
  **/
 
 int main(void)
