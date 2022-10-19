@@ -7,7 +7,7 @@
  ** Return: Always 0 (Success)
  **/
 
-int main(void)
+int main()
 {
 	int i = 1, j = 1, sum = 0;
 
