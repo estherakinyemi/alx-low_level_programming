@@ -9,8 +9,8 @@
 
 int _isalpha(int p)
 {
-	if (((p >= 'a') && (p >= 'z')) || ((p >= 'A') && (p <= 'Z')))
-	return (0);
+	if (((p >= 'a') && (p <= 'z')) || ((p >= 'A') && (p <= 'Z')))
+	return (1);
 	else
 	return (0);
 }
