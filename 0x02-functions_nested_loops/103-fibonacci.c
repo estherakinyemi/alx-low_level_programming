@@ -1,32 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- i* main - Prints the sum of a fibonacci sequence
+ ** main - Prints the sum of a fibonacci sequence
  **
  ** Return: Always 0 (Success)
  **/
 
 int main(void)
 {
-	unsigned long s1 = 0, s2 = 0, sum;
-	float total_sum;
+	int i = 1, j = 1, sum = 0;
 
-	while (1)
+	while (i < 4000000)
 	{
-		sum = s1 + s2;
-		if (sum > 4000000)
-			break;
+		i = i + j;
+		j = i - j;
 
-
-		if ((sum % 2) == 0)
-			total_sum += sum;
-
-		s1 = s2;
-		s2 = sum;
+		if (i % 2 == 0)
+			sum += i;
 	}
-	printf("%.0f\n", total_sum);
-
-	return (0);
+	printf("%d\n", sum);
 }
-
-
