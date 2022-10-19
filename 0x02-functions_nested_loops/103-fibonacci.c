@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- ** main - Prints the sum of a fibonacci sequence
+ i* main - Prints the sum of a fibonacci sequence
  **
  ** Return: Always 0 (Success)
  **/
@@ -16,6 +16,7 @@ int main(void)
 		sum = s1 + s2;
 		if (sum > 4000000)
 			break;
+
 
 		if ((sum % 2) == 0)
 			total_sum += sum;
